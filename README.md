@@ -1,2 +1,2 @@
-# rifa-ai-promptfoo-evals
-Promptfoo eval suite for Rifa AI compliance testing.
+# mission-critical-compliance-ai-promptfoo-evals
+Promptfoo eval suite for compliance testing.
