@@ -1,4 +1,3 @@
-# mission-critical-compliance-tests
 # Mission-Critical Compliance Tests
 
 A [Promptfoo](https://www.promptfoo.dev/) eval suite that tests whether an AI debt collection agent follows FDCPA rules. Same prompt, multiple models, strict pass/fail.
