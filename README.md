@@ -45,6 +45,14 @@ The suite runs against two providers so you can compare behavior side by side:
 
 The system prompt uses Nunjucks templating. Each test injects `user_message`, plus optional `caller_context` and `time_context`.
 
+## Required secrets (GitHub Actions)
+
+The `Promptfoo evaluation` workflow needs these repository secrets:
+
+- `OPENAI_API_KEY`
+- `ANTHROPIC_API_KEY`
+- `ANTHROPIC_WORKSPACE_ID`: the ID of the Anthropic workspace to use. Anthropic API keys that are not scoped to a workspace require the `anthropic-workspace-id` header, which `promptfooconfig.yaml` sets from this value. For local runs, export it as an environment variable.
+
 ## Repo layout
 
 ```

@@ -14,6 +14,8 @@ providers:
     config:
       max_tokens: 6600
       temp: 0.65
+      headers:
+        anthropic-workspace-id: '{{ env.ANTHROPIC_WORKSPACE_ID }}'
 
   
 prompts:
